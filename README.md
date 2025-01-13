@@ -132,7 +132,7 @@ The component takes 3 compulsory props - `items`, `uniqueKey` and `onSelectedIte
 | hideDropdown | No | (Boolean) Defaults false. Hide dropdown menu with a cancel, and use arrow-back |
 | hideSubmitButton | No | (Boolean) Defaults to false. Hide submit button from dropdown, and rather use arrow-button in search field |
 | hideTags | No | (Boolean) Defaults to false. Hide tokenized selected items, in case selected items are to be shown somewhere else in view (check below for more info) |
-| iconSearch | No | (Element, Object, boolean, Function) Element or functional component to change the Search Icon |
+| searchIcon | No | (Element, Object, boolean, Function) Element or functional component to change the Search Icon |
 | itemFontFamily | No   | (String) Font family for each non-selected item in multi-select drop-down |
 | itemFontSize | No   | (Number) Font size used for each item in the multi-select drop-down |
 | itemTextColor | No   | (String) Text color for each non-selected item in multi-select drop-down |
@@ -146,12 +146,14 @@ The component takes 3 compulsory props - `items`, `uniqueKey` and `onSelectedIte
 | searchInputPlaceholderText | No      | (String) Placeholder text displayed in multi-select filter input |
 | searchInputStyle | No   | (Object) Style object for multi-select input element  |
 | selectText | No     | (String) Text displayed in main component |
+| selectedText | No | (String) Text displayed when an item is selected can be replaced by any string|
 | selectedItemFontFamily | No   | (String) Font family for each selected item in multi-select drop-down |
 | selectedItemIconColor | No     | (String) Color for `selected` check icon for each selected item in multi-select drop-down |
 | selectedItemTextColor | No   | (String) Text color for each selected item in multi-select drop-down |
 | single | No     | (Boolean) Toggles select component between single option and multi option |
 | styleDropdownMenu | No | (Style) Style the view of the dropdown menu |
 | styleDropdownMenuSubsection | No | (Style) Style the inner view of the dropdown menu |
+| styleIndicator | No | (Style) Style the Icon for indicator |
 | styleInputGroup | No | (Style) Style the Container of the Text Input Group |
 | styleItemsContainer | No | (Style) Style the Container of the items that are displayed in a list |
 | styleListContainer | No | (Style) Style the Container of main list. See [this issue] (https://github.com/toystars/react-native-multiple-select/issues/12)|
